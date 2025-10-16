@@ -106,6 +106,7 @@
     display: block;
     padding: 120px 0px 0px;
     z-index: 1;
+    margin-bottom: 100px;
 }
 
 .feature-two__single {

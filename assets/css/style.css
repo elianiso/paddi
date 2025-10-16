@@ -1120,6 +1120,30 @@ xs sidebar
 }
 
 
+/* Style for the new container that holds the buttons */
+.main-slider__buttons-container {
+    display: flex;
+    flex-direction: column; /* Stacks buttons vertically on mobile (default) */
+    align-items: flex-start;
+    gap: 15px; /* Adds space between the stacked buttons */
+    margin-bottom: 25px; /* Adds space between the buttons and the search bar below */
+}
+
+/* Make the search form look a bit better */
+.main-slider__content .tab .banner-two__tab-form-box {
+    max-width: 450px; /* Optional: Constrain the width of the search bar */
+}
+
+
+/* --- Media Query for Web/Desktop Screens --- */
+/* When the screen is 768px or wider, these styles will apply */
+@media (min-width: 768px) {
+    .main-slider__buttons-container {
+        flex-direction: row; /* Aligns buttons horizontally on web */
+        align-items: center;
+        gap: 20px; /* Adjusts space between buttons for horizontal layout */
+    }
+}
 
 
 /* Thm Btn Css */
@@ -1143,6 +1167,7 @@ xs sidebar
   transition: all 0.5s linear;
   text-transform: capitalize;
   z-index: 1;
+  flex-wrap: wrap;
 }
 
 .thm-btn>span {
