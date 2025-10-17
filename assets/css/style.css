@@ -34,6 +34,7 @@ html, body {
   --tanspot-primary: #F4F5F9;
   --tanspot-primary-rgb: 244, 245, 249;
   --tanspot-black: #062f3a;
+  --tanspot-yellow: #F6D02F;
   --tanspot-black-rgb: 6, 47, 58;
   --tanspot-white: #ffffff;
   --tanspot-white-rgb: 255, 255, 255;
@@ -105,7 +106,7 @@ h4,
 h5,
 h6 {
   font-family: var(--tanspot-font-two);
-  color: var(--tanspot-black);
+  color: var(--tanspot-yellow);
   margin: 0;
 }
 
@@ -1181,7 +1182,7 @@ xs sidebar
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--tanspot-black);
+  background-color: var(--tanspot-yellow);
   border-radius: 50%;
   color: var(--tanspot-white);
   transition: all 0.5s linear;
@@ -1210,7 +1211,7 @@ xs sidebar
   width: 50%;
   height: 0;
   visibility: hidden;
-  background-color: var(--tanspot-black);
+  background-color: var(--tanspot-yellow);
   opacity: 0;
   z-index: -1;
   transition: all 0.4s ease-in-out;
