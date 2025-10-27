@@ -1308,7 +1308,7 @@ xs sidebar
   left: 50%;
   right: 0;
   bottom: 0;
-  background-color: var(--tanspot-base);
+  background-color: var(--tanspot-w);
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
   z-index: -1;
@@ -3362,7 +3362,7 @@ xs sidebar
   bottom: 0;
   left: -10000000px;
   right: 99%;
-  background-color: var(--tanspot-base);
+  background-color: var(--tanspot-white);
   z-index: -1;
 }
 
@@ -3370,7 +3370,7 @@ xs sidebar
   display: block;
   padding: 25px 0;
   padding-right: 40px;
-  background-color: var(--tanspot-base);
+  background-color: var(--tanspot-white);
   clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0 100%, 0 0);
 }
 
